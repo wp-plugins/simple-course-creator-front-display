@@ -12,7 +12,7 @@ Outputs the course name on each post listed on a blog home, archive page, or sea
 
 == Description ==
 
-This plugins must be used with [Simple Course Creator](http://wordpress.org/plugins/simple-course-creator/).
+This plugin must be used with [Simple Course Creator](http://wordpress.org/plugins/simple-course-creator/).
 
 By default, the only way to know that a post is part of a Simple Course Creator course is by viewing the individual post page or another post in the same course. This add-on allows you to see if a post is part of a course in "byline" fashion. The name of the course a post is part of can be seen from the blog home, archive, or search results.
 
