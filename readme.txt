@@ -45,6 +45,9 @@ The Front Display customizer options will be merged with SCC Customizer.
 
 == Changelog ==
 
+= 1.0.2 =
+* improved: user input sanitization
+
 = 1.0.1 =
 * fix: languages directory path
 
