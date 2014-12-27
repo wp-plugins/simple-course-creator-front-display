@@ -3,12 +3,12 @@
  * Plugin Name: SCC - Front Display
  * Plugin URI: http://buildwpyourself.com/downloads/scc-front-display/
  * Description: On the blog home, archives, and search results, indicate that posts are part of a course.
- * Version: 1.0.2
+ * Version: 1.0.3
  * Author: Sean Davis
  * Author URI: http://seandavis.co
  * License: GPL2
  * Requires at least: 3.8
- * Tested up to: 3.9.1
+ * Tested up to: 4.1
  * Text Domain: scc_front_display
  * Domain Path: /languages/
  * 
@@ -44,19 +44,19 @@ if ( is_plugin_active( 'simple-course-creator/simple-course-creator.php' ) ) :
 	 * @since 1.0.0
 	 */
 	class Simple_Course_Creator_Front_Display {
-	
-			
+
+
 		/**
 		 * constructor for Simple_Course_Creator_Front_Display class
 		 */
 		public function __construct() {
-			
+
 			// define plugin directory
 			define( 'SCCFD_DIR', trailingslashit( plugin_dir_path( __FILE__ ) ) );
 
 			// load text domain
 			add_action( 'init', array( $this, 'load_textdomain' ) );
-	
+
 			// require additional plugin files
 			$this->includes();
 		}
